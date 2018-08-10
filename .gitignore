@@ -1,3 +1,4 @@
 SECRET_KEY
 raw_recordings
 anki_import*txt
+failures.txt
