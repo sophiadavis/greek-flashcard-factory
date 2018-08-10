@@ -1,0 +1,21 @@
+good morning,καλημέρα
+good evening,καλησπέρα
+good night,καληνύχτα
+hello (informal),γειά σου
+hello (formal),γειά σας
+see you,τα λεμε
+nice to meet you,χαίρω πολύ
+how are you? (informal),τι κάνεις;
+how are you? (formal),Τι κάνετε;
+work,η δουλειά
+what do you do for work?,Τι δουλειά κάνεις;
+doctor,ο γιατρός
+teacher, η δασκάλα
+sick,άρρωστος
+Where are you from?,Από που είσαι;
+Greece,η Ελλάδα
+I'm from Greece.,Είμαι από την Ελλάδα.
+Where do you live?,Πού μἐνεις;
+I live in...,Μἐνω στην Ελλάδα.
+What's your name?,Πώς σε λέμε;
+My name is...,Με λέμε

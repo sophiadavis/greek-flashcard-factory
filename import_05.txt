@@ -1,0 +1,21 @@
+across,απέναντι
+under,κάτω
+above,πάνω
+near to,δίπλα
+far from,μακριά από
+near,κοντά σε
+in front of,μπροστά
+behind,πίσω
+What time is it?,Τι ώρα είναι;
+It is one o'clock.,Είναι μία (η ώρα).
+At one o'clock,στη μία η ώρα
+1:15,μία και τέταρτο
+quarter,το τέταρτο
+1:30,μία και μισή
+1:45,παρά τέταρτο
+At three-four o'clock,στις τρεις-τέσσερις
+when,ποτέ
+midday,το μεσημέρι
+morning,το πρωί
+how many hours,πόσες ώρες
+από, σε

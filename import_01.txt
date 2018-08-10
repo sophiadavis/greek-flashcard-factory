@@ -1,0 +1,19 @@
+yes, ναι
+no, όχι
+how, πως
+where, πού
+what, τι
+sorry, συγγνώμη
+ok, εντάξει
+thank you, ευχαριστώ
+please, παρακαλώ
+here you go, ορίστε
+nothing, τίποτα
+you're right, έχεις δίκιο
+right, δίκιο
+good, καλό
+very, 	πολύ
+really?, αλήθεια;
+precisely, ακριβώς
+and you?, εσένα;
+I would like, θα ήθελα

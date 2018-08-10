@@ -1,0 +1,149 @@
+number,αριθμός
+zero,μηδέν
+one,ένα
+one(m),ένας
+one(f),μία
+two,δύο
+three,τρία
+three(mf),τρεις
+four,τέσσερα
+four(mf),τέσσερις
+five,πέντε
+six,έξι
+seven,επτά
+seven(alt),εφτά
+eight,οκτώ
+eight(alt),οχτώ
+nine,εννέα
+nine(alt),εννιά
+ten,δέκα
+twenty,είκοσι
+thirty,τριάντα
+forty,σαράντα
+fifty,πενήντα
+sixty,εξήντα
+seventy,εβδομήντα
+eighty,ογδόντα
+ninety,ενενήντα
+one hundred,εκατό
+two hundred,διακόσια
+one thousand,χίλια
+two thousand,δύο χιλιάδες
+three thousand,τρεις χιλιάδες
+congratulations,συγχαρητήρια
+happy birthday,χρόνια πολλά
+happy birthday(may you live to 100),να τα εκατοστήσεις
+hundredth?,εκατοστήσεις
+birthday,γενέθλια
+It's my birthday,Έχω τα γενέθλιά μου
+name day,γιορτή
+It's my name day,Έχω τη γιορτή μου
+married,παντρεμένος
+divorced,χωρισμένος
+children,παιδιά
+cheers,γεια μας
+too bad,κρίμα
+I like,μου αρέσει
+Have a nice vacation,καλές διακοπές
+vacation,διακοπές
+very good,πολύ καλά
+to be crazy about,τρελαίνομαι
+mister,κύριε
+bus,το λεωφορείο
+taxi,το ταξί
+car,το αυτοκίνητο
+train,το τρένο
+boat,το πλοίο
+plane,το αεροπλάνο
+metro,το μετρό
+bike,το ποδήλατο
+on foot,με τα πόδια
+foot,πόδι
+feet,πόδια
+far,μακριά
+near,κοντά
+straight ahead,ευθεία
+just straight ahead,όλο ευθεία
+on the right side,στο δεξί σας χέρι
+on the left side,στο αριστερό σας χέρι
+arm,ο χέρι
+end,το τέλος
+mother,η μητέρα
+father,ο πατέρας
+son,ο γιος
+daughter,η κόρη
+brother,ο αδελφός
+sister,η αδελφή
+grandfather,ο παππούς
+grandmother,η γιαγιά
+uncle,ο θείος
+aunt,η θεία
+cousin(m),ο ξάδελφος
+cousin(f),η ξαδέλφη
+god-father,ο νονός
+god-mother,η νονά
+friend(m),ο φίλος
+friend(f),η φίλη
+room,το δωμάτιο
+double room,δίκλινο
+single room,μονόκλινο
+breakfast,το πρωινό
+key,το κλειδί
+view,η θέα
+balcony,το μπαλκόνι
+AC,ο κλιματισμός
+TV,η τηλεόραση
+telephone,το τηλέφωνο
+fridge,το ψυγείο
+passport,το διαβατήριο
+every day,κάθε μέρα
+every-each,κάθε
+day,η ημέρα
+Monday,η Δευτέρα
+Tuesday,η Τρίτη
+Wednesday,η Τετάρτη
+Thursday,η Πέμπτη
+Friday,η Παρασκευή
+Saturday,το Σάββατο
+Sunday,η Κυριακή
+week,η εβδομάδα
+to exist,υπάρχω
+is there,υπάρχει
+Is there a ... nearby?,Υπάρχει έδω κοντά...;
+travel agency,το ταξιδιωτικό γραφείο
+office,το γραφείο
+bank,η τράπεζα
+store,το μαγαζί
+clothing store,το μαγαζί με ρούχα
+harbor,το λιμάνι
+trip,το ταξίδι
+return ticket,εισιτήριο με επιστροφή
+return,επιστροφή
+to depart,φεύγω
+amount,το ποσό
+how much does it cost?(1), ποσό έχει
+how much does it cost?(2), ποσό κάνει
+how much does it cost?(3), ποσό έχουν
+how much does it cost?(4), ποσό κάνουν
+great!,ωραία
+across,απέναντι
+under,κάτω
+above,πάνω
+near to,δίπλα
+far from,μακριά από
+near,κοντά σε
+in front of,μπροστά
+behind,πίσω
+What time is it?,Τι ώρα είναι;
+It is one o'clock.,Είναι μία (η ώρα).
+At one o'clock,στη μία η ώρα
+1:15,μία και τέταρτο
+quarter,το τέταρτο
+1:30,μία και μισή
+1:45,παρά τέταρτο
+At three-four o'clock,στις τρεις-τέσσερις
+when,ποτέ
+midday,το μεσημέρι
+morning,το πρωί
+how many hours,πόσες ώρες
+από, σε

@@ -1,0 +1,32 @@
+not,δεν
+but,αλλά
+and,και
+or,ή
+after,μετά
+in (feminine),στην
+in (masculine),στον
+in (neuter),στο
+from,από
+with,με
+here,εδώ
+there,εκεί
+right,δεξιά
+left,αριστερά
+tomorrow,αύριο
+to live,μένω
+to do,κάνω
+to have,έχω
+to want,θέλω
+to know,ξέρω
+to go,πάω
+house,σπίτι
+wine,κρασί
+white,άσπρος
+red,κόκκινο
+station,στάση
+bus station,στάση για τα λεωφορεία
+ticket,εισιτήριο
+hotel,ξενοδοχείο
+road,δρόμος
+supermarket,σουπερμάρκετ
+toilet,τουαλέτα
