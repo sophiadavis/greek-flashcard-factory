@@ -36,7 +36,7 @@ def parse_vocab_pairs_from_file(input_file):
 
 
 def download_pronunciation_to_anki(english, greek):
-    greek_wo_article = re.sub('^(η|το|ο) ', '', greek)
+    greek_wo_article = re.sub('^(η|το|ο|οι) ', '', greek)
     escaped_utf8_greek = urllib.parse.quote(greek_wo_article.encode('utf-8'))
     res = requests.get(FORVO_STANDARD_PRONUNCIATION_URL.format(key=_read_key(), greek=escaped_utf8_greek))
     forvo_data = res.json()
