@@ -8,6 +8,7 @@ import shutil
 import urllib
 
 FORVO_STANDARD_PRONUNCIATION_URL = 'https://apifree.forvo.com/key/{key}/format/json/action/standard-pronunciation/word/{greek}/language/el'
+FORVO_WORD_PRONUNCIATION_URL = 'https://apifree.forvo.com/key/{key}/format/json/action/word-pronunciations/word/{greek}/language/el'
 
 RAW_RECORDINGS_PATH = '/Users/sophia/greek/raw_recordings/{greek}.mp3'
 ANKI_MEDIA_PATH = '/Users/sophia/Library/Application Support/Anki2/User 1/collection.media/{english}.mp3'
@@ -40,19 +41,24 @@ def download_pronunciation_to_anki(english, greek):
     escaped_utf8_greek = urllib.parse.quote(greek_wo_article.encode('utf-8'))
     res = requests.get(FORVO_STANDARD_PRONUNCIATION_URL.format(key=_read_key(), greek=escaped_utf8_greek))
     forvo_data = res.json()
-    print('Downloading pronunciation info from Forvo with status {}'.format(res.status_code))
+    print('{} -- Downloaded standard pronunciation info from Forvo -- {} items'.format(greek, len(forvo_data['items'])))
+
+    if not forvo_data['items']:
+        res = requests.get(FORVO_WORD_PRONUNCIATION_URL.format(key=_read_key(), greek=escaped_utf8_greek))
+        forvo_data = res.json()
+        print('{} -- Downloaded word pronunciation info from Forvo -- {} items'.format(greek, len(forvo_data['items'])))
 
     mp3_url = forvo_data['items'][0]['pathmp3']
     raw_recording_path = RAW_RECORDINGS_PATH.format(greek=greek)
 
-    print('Downloading {} to {}'.format(mp3_url, raw_recording_path))
+    print('{} -- Downloading {} to {}'.format(greek, mp3_url, raw_recording_path))
     mp3_content = requests.get(mp3_url).content
     with open(raw_recording_path, 'wb') as f:
         f.write(mp3_content)
 
     anki_recording_path = ANKI_MEDIA_PATH.format(english=english)
     shutil.copyfile(raw_recording_path, anki_recording_path)
-    print('Copying {} to {}'.format(raw_recording_path, anki_recording_path))
+    print('{} -- Copying {} to {}'.format(greek, raw_recording_path, anki_recording_path))
 
 
 def generate_anki_import(input_file, output_file=None):
